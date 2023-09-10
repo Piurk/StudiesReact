@@ -3,19 +3,20 @@ import { View, Text, Image } from 'react-native';
 
 var Tabuada
 var  x = 1
-var soma
+var soma = "Tabuada do 4: \n"
 
 
-while (x<10) {
+while (x<=10) {
 Tabuada = 4*x
-soma = soma + Tabuada + "\n"
+soma = soma+ "4 * "+ x + " = " + Tabuada + "\n" 
+x++
 }
 
 function Ex1() {
 return (
 <View>
 
-<Text>Tabuada do 4: \n {Tabuada}</Text>
+<Text>{soma}</Text>
 </View>
 );
 }
