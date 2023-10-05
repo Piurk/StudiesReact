@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View } from 'react-native';
-import ExFour from "./functions/ExTwo";
+// Import Aqui
 
 export default function App() {
- 
+  
   return (
     <View style={styles.container}>
       
-    <ExFour/>
+   
     
     </View>
   );
@@ -20,6 +20,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
+  }
 
 });
